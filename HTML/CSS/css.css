@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+.heading:hover {
+    background: grey;
+}
+
+.heading { 
+    transition: all 300ms ease-in-out;
+}
+
+a {
+    color: firebrick;
+}
+
+a:link {
+    color: darkslateblue;
+}
+
+a:hover {
+    background: deeppink;
+    color: bisque;
+    text-decoration: none;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border:  1px solid black;
+}
