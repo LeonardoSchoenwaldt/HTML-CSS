@@ -3,30 +3,15 @@
     border: 0;
 }
 
-.heading:hover {
-    background: grey;
+ul li:nth-child(even){
+    background-color: red
 }
-
-.heading { 
-    transition: all 300ms ease-in-out;
+ul li:nth-child(odd){
+    background-color: yellow
 }
-
-a {
-    color: firebrick;
+ul li:nth-child(3n){
+    background-color: black
 }
-
-a:link {
-    color: darkslateblue;
-}
-
-a:hover {
-    background: deeppink;
-    color: bisque;
-    text-decoration: none;
-}
-
-input:focus {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    outline: none;
-    border:  1px solid black;
+ul li:nth-child(3n+5){
+    background-color: mediumvioletred
 }
