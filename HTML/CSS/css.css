@@ -1,17 +1,18 @@
 * {
-    margin: 0;
-    border: 0;
+    margin: 10;
+    border: 10;
 }
-
-ul li:nth-child(even){
-    background-color: red
+ul li::after {
+    content: ' - ';
+    background: gray;
 }
-ul li:nth-child(odd){
-    background-color: yellow
+p::first-letter {
+    font-size: 40px;
 }
-ul li:nth-child(3n){
-    background-color: black
+p::first-line {
+    color: red;
 }
-ul li:nth-child(3n+5){
-    background-color: mediumvioletred
+p::selection {
+    background: black;
+    color: antiquewhite;
 }
